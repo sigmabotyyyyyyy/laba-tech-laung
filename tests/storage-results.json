@@ -1,0 +1,107 @@
+[
+  {
+    "project": "lab-08/low",
+    "name": "Нет ключа",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Корректный JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Повреждённый JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Неверная структура",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Storage недоступен",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Переполнение",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "name": "Сериализация",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Нет ключа",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Корректный JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Повреждённый JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Неверная структура",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Storage недоступен",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Переполнение",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "name": "Сериализация",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Нет ключа",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Корректный JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Повреждённый JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Неверная структура",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Storage недоступен",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Переполнение",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "name": "Сериализация",
+    "status": "passed"
+  }
+]

@@ -1,0 +1,555 @@
+[
+  {
+    "project": "lab-04/low",
+    "action": "Пустая форма",
+    "expected": "Введите ФИО",
+    "actual": "Введите ФИО",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/low",
+    "action": "Неверный e-mail",
+    "expected": "Введите корректный e-mail",
+    "actual": "Введите корректный e-mail",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/low",
+    "action": "Курс не выбран",
+    "expected": "Выберите курс",
+    "actual": "Выберите курс",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/low",
+    "action": "Нет согласия",
+    "expected": "Подтвердите согласие",
+    "actual": "Подтвердите согласие",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/low",
+    "action": "Корректная анкета",
+    "expected": "Алия · aliya@example.com · 2 курс",
+    "actual": "Анкета готова\n\nАлия · aliya@example.com · 2 курс",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/medium",
+    "action": "Пустая форма",
+    "expected": "Выберите товар",
+    "actual": "Выберите товар",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/medium",
+    "action": "Нулевое количество",
+    "expected": "целое количество",
+    "actual": "Введите целое количество от 1 до 1000",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/medium",
+    "action": "Дробное количество",
+    "expected": "целое количество",
+    "actual": "Введите целое количество от 1 до 1000",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/medium",
+    "action": "Доставка не выбрана",
+    "expected": "Выберите доставку",
+    "actual": "Выберите доставку",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/medium",
+    "action": "2 книги + курьер + упаковка",
+    "expected": "6800 ₸",
+    "actual": "Итого: 6800 ₸\n\nКоличество: 2; доставка: курьер",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/high",
+    "action": "Пустая форма",
+    "expected": "Введите ФИО",
+    "actual": "Введите ФИО",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/high",
+    "action": "Неверный e-mail",
+    "expected": "корректный e-mail",
+    "actual": "Введите корректный e-mail",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/high",
+    "action": "11 билетов",
+    "expected": "от 1 до 10",
+    "actual": "Количество должно быть целым от 1 до 10",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/high",
+    "action": "Нет согласия",
+    "expected": "Подтвердите условия",
+    "actual": "Подтвердите условия",
+    "status": "passed"
+  },
+  {
+    "project": "lab-04/high",
+    "action": "2 стандартных билета с обедом и мастер-классом",
+    "expected": "18000 ₸",
+    "actual": "Итого: 18000 ₸\n\nАлия · 2 билетов · aliya@example.com",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/low",
+    "action": "Пустой ввод",
+    "expected": "от 1 до 10",
+    "actual": "Введите целое число от 1 до 10",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/low",
+    "action": "Число вне диапазона",
+    "expected": "от 1 до 10",
+    "actual": "Введите целое число от 1 до 10",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/low",
+    "action": "Таблица для 7: десять строк",
+    "expected": 10,
+    "actual": 10,
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/low",
+    "action": "7 × 10",
+    "expected": "70",
+    "actual": "7 × 10\t70",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/medium",
+    "action": "Пустой список",
+    "expected": "Введите оценки",
+    "actual": "Введите оценки от 0 до 100 через пробел; десятичная часть через точку или запятую",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/medium",
+    "action": "Оценка вне диапазона",
+    "expected": "Введите оценки",
+    "actual": "Введите оценки от 0 до 100 через пробел; десятичная часть через точку или запятую",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/medium",
+    "action": "80, 90, 100",
+    "expected": "90.00",
+    "actual": "Средний балл: 90.00\n\nМинимум: 80 · Максимум: 100 · Количество: 3",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/high",
+    "action": "Пустой расход",
+    "expected": "Укажите название",
+    "actual": "Укажите название и сумму от 0.01 до 1 000 000 000 с двумя десятичными знаками максимум",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/high",
+    "action": "Отрицательная сумма",
+    "expected": "Укажите название",
+    "actual": "Укажите название и сумму от 0.01 до 1 000 000 000 с двумя десятичными знаками максимум",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/high",
+    "action": "Сумма двух расходов",
+    "expected": "1500.00 ₸",
+    "actual": "Общий расход: 1500.00 ₸",
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/high",
+    "action": "Фильтр по названию",
+    "expected": 1,
+    "actual": 1,
+    "status": "passed"
+  },
+  {
+    "project": "lab-05/high",
+    "action": "Удаление расхода пересчитывает итог",
+    "expected": "249.50 ₸",
+    "actual": "Общий расход: 249.50 ₸",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/low",
+    "action": "Пустая заметка",
+    "expected": "Введите текст",
+    "actual": "Введите текст заметки",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/low",
+    "action": "HTML отображается текстом",
+    "expected": "<img src=x onerror=alert(1)>",
+    "actual": "<img src=x onerror=alert(1)>\nУдалить",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/low",
+    "action": "HTML не создаёт изображение",
+    "expected": 0,
+    "actual": 0,
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/low",
+    "action": "Удаление заметки",
+    "expected": "0",
+    "actual": "0",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/medium",
+    "action": "Пустой тег по Enter",
+    "expected": "не может быть пустым",
+    "actual": "Тег не может быть пустым",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/medium",
+    "action": "Добавление по Enter",
+    "expected": "Тегов: 1",
+    "actual": "Тегов: 1",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/medium",
+    "action": "Повтор без учёта регистра",
+    "expected": "уже существует",
+    "actual": "Такой тег уже существует",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/medium",
+    "action": "Удаление тега",
+    "expected": "Тегов: 0",
+    "actual": "Тегов: 0",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/high",
+    "action": "Пустая карточка",
+    "expected": "Введите название",
+    "actual": "Введите название задачи",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/high",
+    "action": "Добавление в Новые",
+    "expected": "Новые (1)",
+    "actual": "Новые (1)\n\nСдать лабораторную\n\nДалее →Удалить\nВ работе (0)\n\nНет карточек\n\nГотово (0)\n\nНет карточек",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/high",
+    "action": "Перенос в работу",
+    "expected": "В работе (1)",
+    "actual": "Новые (0)\n\nНет карточек\n\nВ работе (1)\n\nСдать лабораторную\n\n← НазадДалее →Удалить\nГотово (0)\n\nНет карточек",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/high",
+    "action": "Перенос в готовые",
+    "expected": "Готово (1)",
+    "actual": "Новые (0)\n\nНет карточек\n\nВ работе (0)\n\nНет карточек\n\nГотово (1)\n\nСдать лабораторную\n\n← НазадУдалить",
+    "status": "passed"
+  },
+  {
+    "project": "lab-06/high",
+    "action": "Удаление карточки",
+    "expected": "Готово (0)",
+    "actual": "Новые (0)\n\nНет карточек\n\nВ работе (0)\n\nНет карточек\n\nГотово (0)\n\nНет карточек",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/low",
+    "action": "Стартовая вкладка",
+    "expected": "О себе",
+    "actual": "О себе\n\nЯ изучаю языки и технологии программирования. Это демонстрационная визитка студента.\n\nНаправление: программная инженерия\nИнтересы: веб-разработка и автоматизация",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/low",
+    "action": "Переход на Навыки",
+    "expected": "Python: расчёты и классы",
+    "actual": "Навыки\n\nЧто я практикую на лабораторных занятиях\n\nPython: расчёты и классы\nHTML и CSS: структура и оформление\nJavaScript: DOM, события и JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/low",
+    "action": "Переход на Контакты",
+    "expected": "student@example.com",
+    "actual": "Контакты\n\nПример контактных данных для учебного проекта\n\nE-mail: student@example.com\nГруппа: учебная группа",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/low",
+    "action": "Home возвращает на первую вкладку",
+    "expected": "О себе",
+    "actual": "О себе\n\nЯ изучаю языки и технологии программирования. Это демонстрационная визитка студента.\n\nНаправление: программная инженерия\nИнтересы: веб-разработка и автоматизация",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/low",
+    "action": "Стрелка вправо переключает вкладку",
+    "expected": "Навыки",
+    "actual": "Навыки\n\nЧто я практикую на лабораторных занятиях\n\nPython: расчёты и классы\nHTML и CSS: структура и оформление\nJavaScript: DOM, события и JSON",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Стартовый каталог",
+    "expected": 3,
+    "actual": 3,
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Пустое избранное",
+    "expected": "пока нет книг",
+    "actual": "Избранное\n\nВ избранном пока нет книг",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Добавление книги",
+    "expected": "Избранное (1)",
+    "actual": "Избранное (1)",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Повторное открытие избранного",
+    "expected": "Абай жолы",
+    "actual": "Избранное\nАбай жолы\n\nМухтар Ауэзов\n\nУбрать из избранного",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Удаление из избранного",
+    "expected": "пока нет книг",
+    "actual": "Избранное\n\nВ избранном пока нет книг",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/medium",
+    "action": "Информационная вкладка",
+    "expected": "Учебный каталог",
+    "actual": "О библиотеке\n\nУчебный каталог. Избранное хранится в памяти до обновления страницы.",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Загрузка локального JSON",
+    "expected": 3,
+    "actual": 3,
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Вкладка категорий",
+    "expected": "Python",
+    "actual": "Категории\nPythonJavaScript",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Фильтрация по категории",
+    "expected": 1,
+    "actual": 1,
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Избранная статья",
+    "expected": "Переменные Python",
+    "actual": "Избранное\nPython\nПеременные Python\n\nПеременная связывает имя с объектом. int хранит целые числа, float — числа с плавающей точкой.\n\nУбрать из избранного",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Поиск без совпадений",
+    "expected": "Статьи не найдены",
+    "actual": "Избранное\n\nСтатьи не найдены",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "action": "Первый запуск",
+    "expected": "Список покупок пуст",
+    "actual": "Список покупок пуст",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "action": "Пустой товар",
+    "expected": "Введите название товара",
+    "actual": "Введите название товара",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "action": "Добавление товара",
+    "expected": "Молоко",
+    "actual": "Молоко\nУдалить",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "action": "Восстановление после перезагрузки",
+    "expected": "Молоко",
+    "actual": "Молоко\nУдалить",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/low",
+    "action": "Удаление сохраняется после перезагрузки",
+    "expected": "Список покупок пуст",
+    "actual": "Список покупок пуст",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Первый запуск",
+    "expected": "Нет задач",
+    "actual": "Нет задач для этого фильтра",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Пустая задача",
+    "expected": "Введите текст задачи",
+    "actual": "Введите текст задачи",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Добавление задачи",
+    "expected": "Изучить JSON",
+    "actual": "Изучить JSON\nУдалить",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Статус восстановлен после перезагрузки",
+    "expected": "Выполнено: 1",
+    "actual": "Всего: 1 · Выполнено: 1",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Фильтр активных",
+    "expected": "Нет задач",
+    "actual": "Нет задач для этого фильтра",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/medium",
+    "action": "Удаление сохраняется",
+    "expected": "Всего: 0",
+    "actual": "Всего: 0 · Выполнено: 0",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Первый запуск",
+    "expected": "Шаг 1 из 3",
+    "actual": "Шаг 1 из 3",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Пустой первый шаг",
+    "expected": "Введите имя",
+    "actual": "Введите имя",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Черновик шага восстановлен",
+    "expected": "Шаг 2 из 3",
+    "actual": "Шаг 2 из 3",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Короткая мотивация",
+    "expected": "не менее 20",
+    "actual": "Введите не менее 20 символов",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Отсутствует подтверждение",
+    "expected": "Подтвердите данные",
+    "actual": "Подтвердите данные",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Итоговая заявка восстановлена",
+    "expected": "Алия",
+    "actual": "Алия\n\naliya@example.com · web · 2026-10-21T14:06:48.638Z\n\nХочу научиться создавать доступные веб-приложения.\n\nУдалить заявку",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Черновик сброшен после сохранения",
+    "expected": "Шаг 1 из 3",
+    "actual": "Шаг 1 из 3",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Удаление заявки сохраняется",
+    "expected": "Сохранённых заявок пока нет",
+    "actual": "Сохранённых заявок пока нет",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Отсутствующий JSON-файл",
+    "expected": "Не удалось загрузить статьи",
+    "actual": "Не удалось загрузить статьи. Проверьте локальный сервер и articles.json. HTTP 404\n\nПовторить загрузку",
+    "status": "passed"
+  },
+  {
+    "project": "lab-07/high",
+    "action": "Повтор загрузки после восстановления JSON",
+    "expected": 3,
+    "actual": 3,
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Новая независимая вкладка не получает черновик",
+    "expected": "Шаг 1 из 3",
+    "actual": "Шаг 1 из 3",
+    "status": "passed"
+  },
+  {
+    "project": "lab-08/high",
+    "action": "Исходная вкладка сохраняет свой черновик",
+    "expected": "Шаг 2 из 3",
+    "actual": "Шаг 2 из 3",
+    "status": "passed"
+  }
+]
