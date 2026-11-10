@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="425" viewBox="0 0 880 425" role="img" aria-labelledby="title desc">
+  <title id="title">Зависимости модулей мини-CRM</title>
+  <desc id="desc">main.js импортирует contacts.js, search.js, ui.js, storage.js и validation.js. contacts.js, search.js и ui.js также импортируют validation.js.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#61768a"/></marker>
+  </defs>
+  <rect width="880" height="425" rx="16" fill="#f6f8fa"/>
+  <g fill="none" stroke="#61768a" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M440 95V132H125V175"/>
+    <path d="M440 95V132H335V175"/>
+    <path d="M440 95V132H527V175"/>
+    <path d="M440 95V132H737V175"/>
+    <path d="M330 62H17V350H230"/>
+    <path d="M125 237V280H280V315"/>
+    <path d="M335 237V315"/>
+    <path d="M527 237V280H390V315"/>
+  </g>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="330" y="30" width="220" height="65" rx="9" fill="#182b3a"/>
+    <text x="440" y="57" fill="white" font-size="17" font-weight="bold">advanced/main.js</text>
+    <text x="440" y="79" fill="#d3e6ee" font-size="13">События и состояние</text>
+    <g fill="white" stroke="#c6d4de"><rect x="35" y="175" width="180" height="62" rx="9"/><rect x="250" y="175" width="170" height="62" rx="9"/><rect x="455" y="175" width="145" height="62" rx="9"/><rect x="635" y="175" width="205" height="62" rx="9"/></g>
+    <g fill="#182b3a" font-size="16" font-weight="bold"><text x="125" y="201">contacts.js</text><text x="335" y="201">search.js</text><text x="527" y="201">ui.js</text><text x="737" y="201">shared/storage.js</text></g>
+    <g fill="#536578" font-size="12"><text x="125" y="223">CRUD и данные</text><text x="335" y="223">Поиск и сортировка</text><text x="527" y="223">DOM-интерфейс</text><text x="737" y="223">Чтение и запись JSON</text></g>
+    <rect x="230" y="315" width="210" height="70" rx="9" fill="#edf7f4" stroke="#add1c5"/>
+    <text x="335" y="345" fill="#075e4d" font-size="17" font-weight="bold">validation.js</text>
+    <text x="335" y="367" fill="#536578" font-size="13">Поля, правила и статусы</text>
+    <text x="666" y="349" fill="#536578" font-size="13">Стрелка обозначает импорт.</text>
+    <text x="666" y="372" fill="#536578" font-size="13">Циклических зависимостей нет.</text>
+  </g>
+</svg>
